@@ -153,61 +153,53 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "",
-    date: "",
+    title: "User Registration & Login systems ",
+    date: "Feb 2024-Mar 2024",
     description:
-      "",
+      "This is a User Registration & Login systems app done with Node.js Framework using MongoDB(Atlas) as the data store, Express as the routing system, Body-parser as the parser for webpage, Express-session used to track the user's session and of course Mongoose to make interacting with Mongo from Node easy.",
     image:
-      "",
+      "https://i.ytimg.com/vi/V8PU_geaCCU/maxresdefault.jpg",
     tags: [
-      "React Js",
+      "HTML",
       "MongoDb",
-      "Node Js",
+      "CSS",
+      "Nodejs",
+      "Javascript",
     ],
     category: "web app",
-    github: "",
-    webapp: "",
+    github: "https://github.com/ThoufeeqAhmed2004/Registration-and-login-form",
   },
+
   {
     id: 1,
-    title: "",
-    date: "",
+    title: "Money Tracker",
+    date: "Mar 2024-Apr 2024",
     description:
-      "",
+      "This is a Money Tracker Web App built with Node.js and MongoDB allows users to track their income and expenses efficiently. It typically includes features like adding transactions, categorizing them (e.g., food, transport, salary), viewing transaction history, and generating reports (monthly or yearly). The back-end is powered by Node.js for handling API requests, user authentication, and business logic, while MongoDB serves as the database to store transaction data in a flexible and scalable way. Users can log in, manage finances, and visualize their spending habits through a clean, interactive interface.",
     image:
-      "",
+      "https://uizard.io/static/f50045aa1e41b29e7744becf7d4f1875/a8e47/79f2f089ba7cf85bb9b7e5f26d005139d15f0463-1440x835.png",
     tags: [
-      "React Js",
+      "HTML",
       "MongoDb",
       "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "CSS",
+      "Javascript",
     ],
-    category: "",
-    github: "",
-    webapp: "",
+    category: "web app",
+    github: "https://github.com/ThoufeeqAhmed2004/Money-Tracker-web-app",
   },
+
   {
     id: 2,
-    title: "",
-    date: "",
+    title: "Bitcoin Price Prediction",
+    date: "Oct 2023-Nov 2023",
     description:
-      "",
+      "This Project presents a machine learning approach to Bitcoin price prediction, aiming to harness the power of historical data and advanced algorithm to forecast future Bitcoin prices. we employ a range of ML techniques, including time series analysis,regression models and deep learning algorithm, to develop accurate and robust price prediction models.  ",
     image:
-      "",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16",],
+      "https://assets.skyfilabs.com/images/blog/bitcoin-price-prediciton-using-machine-learning.webp",
+    tags: ["Python", "LSTM","Deep Learning","Machine Learning"],
     category: "machine learning",
-    github: "",
-    webapp: "",
-    member: [
-      {
-        name: "",
-        img: "",
-        linkedin: "",
-        github: "",
-      },
-    ],
+    github: "https://github.com/ThoufeeqAhmed2004?tab=repositories",
   },
    
 ];

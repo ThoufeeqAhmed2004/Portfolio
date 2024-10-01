@@ -96,6 +96,7 @@ export const Img = styled.img`
   position: relative;
   width: 100%;
   height: 100%;
+  object-fit: cover;
   max-width: 400px;
   max-height: 400px;
   border-radius: 50%;

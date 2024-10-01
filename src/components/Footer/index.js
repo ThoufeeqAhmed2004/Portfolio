@@ -88,7 +88,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Thoufeeq Ahmed</Logo>
+        <Logo>Thoufeeq Ahmed S</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -102,7 +102,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Thoufeeq Ahmed. All rights reserved.
+          &copy; 2024 Thoufeeq Ahmed S
         </Copyright>
 
       </FooterWrapper>
