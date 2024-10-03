@@ -87,35 +87,44 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name: "Django",
+        image: "https://sundaresanv.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdjango_logo.55756f3d.png&w=64&q=75",
+      },
     ],
   },
   {
-    title: "Others",
+    title: "ML Libraries and Frameworks",
     skills: [
       {
-        name: "Git",
+        name: "Tensorflow",
         image:
-          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+          "https://raw.githubusercontent.com/valohai/ml-logos/d8dfb916e50a93a41f3b1ed2ca7bd3dbc77030a2/tensorflow-tf.svg",
       },
       {
-        name: "GitHub",
+        name: "Keras",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://raw.githubusercontent.com/valohai/ml-logos/d8dfb916e50a93a41f3b1ed2ca7bd3dbc77030a2/keras.svg",
       },
       {
-        name: "Netlify",
+        name: "PyTorch",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://sundaresanv.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPyTorch_llgo.91e2453f.png&w=64&q=75",
       },
       {
-        name: "VS Code",
+        name: "Scikit-Learn",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://sundaresanv.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fscikit_logo.d0fe8c1c.png&w=64&q=75",
       },
       {
-        name: "Figma",
+        name: "OpenCV",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+          "https://sundaresanv.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fopencv_logo.2e12fee8.png&w=64&q=75",
+      },
+       {
+        name: "Pandas",
+        image:
+          "https://cdn.worldvectorlogo.com/logos/pandas.svg",
       },
     ],
   },
@@ -125,7 +134,7 @@ export const experiences = [];
 
 export const education = [
   {
-    id: 0,
+    id: 1,
     school: "Sathyabama Institute of Science and Technology",
     date: "Sept 2022 - Sept 2026",
     grade: "8.9 CGPA",
@@ -133,7 +142,7 @@ export const education = [
     degree: "Bachelor of Engineering - BE, Computer Science and Engineering With AI & ML. ",
   },
   {
-    id: 1,
+    id: 2,
     school: "Fathima Central Senior Secondary School",
     date: "Apr 2021 - Apr 2022",
     grade: "70.2%",
@@ -141,7 +150,7 @@ export const education = [
     degree: "CBSE(XII), Maths with Computer Science",
   },
   {
-    id: 2,
+    id: 3,
     school: "Fathima Central Senior Secondary School",
     date: "Apr 2019 - Apr 2020",
     grade: "72.3%",
@@ -152,7 +161,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: 1,
     title: "User Registration & Login systems ",
     date: "Feb 2024-Mar 2024",
     description:
@@ -171,7 +180,7 @@ export const projects = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "Money Tracker",
     date: "Mar 2024-Apr 2024",
     description:
@@ -190,7 +199,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Bitcoin Price Prediction",
     date: "Oct 2023-Nov 2023",
     description:
@@ -204,10 +213,10 @@ export const projects = [
    
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
+// export const TimeLineData = [
+//   { year: 2017, text: "Started my journey" },
+//   { year: 2018, text: "Worked as a freelance developer" },
+//   { year: 2019, text: "Founded JavaScript Mastery" },
+//   { year: 2020, text: "Shared my projects with the world" },
+//   { year: 2021, text: "Started my own platform" },
+// ];
