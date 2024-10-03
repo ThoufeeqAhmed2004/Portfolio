@@ -99,27 +99,27 @@ export const skills = [
       {
         name: "Tensorflow",
         image:
-          "https://raw.githubusercontent.com/valohai/ml-logos/d8dfb916e50a93a41f3b1ed2ca7bd3dbc77030a2/tensorflow-tf.svg",
+          "https://miro.medium.com/v2/resize:fit:548/1*OECT3cWormqy76Eb_M4o_Q.png",
       },
       {
         name: "Keras",
         image:
-          "https://raw.githubusercontent.com/valohai/ml-logos/d8dfb916e50a93a41f3b1ed2ca7bd3dbc77030a2/keras.svg",
+          "https://w7.pngwing.com/pngs/571/118/png-transparent-keras-logo-thumbnail.png",
       },
       {
         name: "PyTorch",
         image:
-          "https://sundaresanv.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPyTorch_llgo.91e2453f.png&w=64&q=75",
+          "",
       },
       {
         name: "Scikit-Learn",
         image:
-          "https://sundaresanv.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fscikit_logo.d0fe8c1c.png&w=64&q=75",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png",
       },
       {
         name: "OpenCV",
         image:
-          "https://sundaresanv.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fopencv_logo.2e12fee8.png&w=64&q=75",
+          "https://w7.pngwing.com/pngs/978/465/png-transparent-learning-opencv-computer-vision-machine-learning-c-robotics-text-computer-logo-thumbnail.png",
       },
        {
         name: "Pandas",
