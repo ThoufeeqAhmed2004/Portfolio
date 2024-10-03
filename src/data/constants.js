@@ -109,7 +109,7 @@ export const skills = [
       {
         name: "PyTorch",
         image:
-          "",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrS5NGrOV5Mx2iH5ua4GXlboFJy9sd2HHINg&s",
       },
       {
         name: "Scikit-Learn",
