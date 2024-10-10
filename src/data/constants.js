@@ -89,7 +89,7 @@ export const skills = [
       },
       {
         name: "Django",
-        image: "https://sundaresanv.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdjango_logo.55756f3d.png&w=64&q=75",
+        image: "https://e7.pngegg.com/pngimages/10/113/png-clipart-django-web-development-web-framework-python-software-framework-django-text-trademark-thumbnail.png",
       },
     ],
   },

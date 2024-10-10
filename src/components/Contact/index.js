@@ -104,6 +104,7 @@ const ContactInputMessage = styled.textarea`
 `
 
 const ContactButton = styled.input`
+cursor: pointer;
   width: 100%;
   text-decoration: none;
   text-align: center;
@@ -145,7 +146,7 @@ const Contact = () => {
     <Container id='contact'>
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Desc>Feel free to reach out to me for any Questions or Work!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
