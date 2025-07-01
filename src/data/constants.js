@@ -1,15 +1,15 @@
 export const Bio = {
-  name: "Thoufeeq Ahmed",
+  name: "Thoufeeq Ahmed S",
   roles: [
     "Full Stack Developer",
     "ML Engineer",
-    "Programmer",
+    "Youtuber"
   ],
   description:
     "BE CSE student specializing in AI and ML, passionate about developing intelligent solutions and innovative web applications. I blend creativity with technical expertise to build cutting-edge projects that push the boundaries of technology.",
   github: "https://github.com/ThoufeeqAhmed2004",
   resume:
-    "https://drive.google.com/file/d/1DvBu10oGdclxNSbBq9nr-85sOZ3AJB9r/view?usp=sharing",
+    "https://drive.google.com/file/d/1mYdXk2YSsbjVzZnzBza1F7oKKU3UcKoq/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/thoufeeq-ahmed-237389272/",
   insta: "https://www.instagram.com/thoufeeq_st/?hl=en",
   facebook: "https://www.facebook.com/thoufeeq.ahmed.39794",
@@ -130,14 +130,30 @@ export const skills = [
   },
 ];
 
-export const experiences = [];
+
+
+export const experiences = [
+  {
+    id: 1,
+    role: "Machine Learning Intern",
+    company: "Altruisty",
+    date: "Jan 2025 - Feb 2025 (2 Months)",
+    desc: "Completed a two-month internship focused on Machine Learning, contributing to an AI-driven Supply Chain Management project for startups. Worked on data preprocessing, feature engineering, and model development to enhance operational efficiency. Gained hands-on experience with industry tools, evaluating model performance and fine-tuning algorithms. Collaborated with a fast-paced, innovation-driven team, strengthening problem-solving, adaptability, and communication skills.",
+    skills: ["Python", "Machine Learning", "Pandas", "Scikit-Learn"],
+    img: "https://altruisty.in/static/assets/imgs/logo/logo.png", 
+    doc: "/Intern CERT.png" 
+  },
+];
+
+  
+
 
 export const education = [
   {
     id: 1,
     school: "Sathyabama Institute of Science and Technology",
     date: "Sept 2022 - Sept 2026",
-    grade: "8.9 CGPA",
+    grade: "8.62 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Sathyabama Institute of Science and Technology Chennai.",
     degree: "Bachelor of Engineering - BE, Computer Science and Engineering With AI & ML. ",
   },
@@ -145,16 +161,14 @@ export const education = [
     id: 2,
     school: "Fathima Central Senior Secondary School",
     date: "Apr 2021 - Apr 2022",
-    grade: "70.2%",
-    desc: "I completed my class 12 high school education at Fathima CBSE School-Chennai, where I studied Maths with Computer Science.",
+    grade: "68.40%",
     degree: "CBSE(XII), Maths with Computer Science",
   },
   {
     id: 3,
     school: "Fathima Central Senior Secondary School",
     date: "Apr 2019 - Apr 2020",
-    grade: "72.3%",
-    desc: "I completed my class 10 education at Fathima CBSE School-Chennai.",
+    grade: "68.80%",
     degree: "CBSE(X)",
   },
 ];
@@ -162,7 +176,7 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "User Registration & Login systems ",
+    title: "REGISTER AND LOGIN APP",
     date: "Feb 2024-Mar 2024",
     description:
       "This is a User Registration & Login systems app done with Node.js Framework using MongoDB(Atlas) as the data store, Express as the routing system, Body-parser as the parser for webpage, Express-session used to track the user's session and of course Mongoose to make interacting with Mongo from Node easy.",
@@ -181,7 +195,7 @@ export const projects = [
 
   {
     id: 2,
-    title: "Money Tracker",
+    title: "EXPENSE TRACKER",
     date: "Mar 2024-Apr 2024",
     description:
       "This is a Money Tracker Web App built with Node.js and MongoDB allows users to track their income and expenses efficiently. It typically includes features like adding transactions, categorizing them (e.g., food, transport, salary), viewing transaction history, and generating reports (monthly or yearly). The back-end is powered by Node.js for handling API requests, user authentication, and business logic, while MongoDB serves as the database to store transaction data in a flexible and scalable way. Users can log in, manage finances, and visualize their spending habits through a clean, interactive interface.",
@@ -200,15 +214,28 @@ export const projects = [
 
   {
     id: 3,
-    title: "Bitcoin Price Prediction",
+    title: "BITCOIN PRICE PREDICTION",
     date: "Oct 2023-Nov 2023",
     description:
-      "This Project presents a machine learning approach to Bitcoin price prediction, aiming to harness the power of historical data and advanced algorithm to forecast future Bitcoin prices. we employ a range of ML techniques, including time series analysis,regression models and deep learning algorithm, to develop accurate and robust price prediction models.  ",
+      "Built and evaluated multiple ML models (Linear Regression, ARIMA, LSTM, Random Forest, Gradient Boosting) for forecasting Bitcoin prices using historical data, trading volume, sentiment, and technical indicators. Applied feature engineering, normalization, and error metrics (MAE, MSE, RMSE) to assess model performance under varying market conditions. ",
     image:
       "https://assets.skyfilabs.com/images/blog/bitcoin-price-prediciton-using-machine-learning.webp",
     tags: ["Python", "LSTM","Deep Learning","Machine Learning"],
     category: "machine learning",
     github: "https://github.com/ThoufeeqAhmed2004?tab=repositories",
+  },
+
+  {
+    id: 4,
+    title: "AI-SMART HR MANAGEMENT ",
+    date: "Mar 2025 - Apr 2025",
+    description:
+      "This project is an AI-powered HR management which automates the hiring process by allowing HRs to post jobs, while candidates can register, log in, and apply through a dedicated portal. Resumes are automatically evaluated using a DeepSeek language model, which helps categorize applicants based on their skills. Personalized assessments are generated to test each candidates knowledge, making the entire recruitment pipeline from application to evaluation fully automated and efficient. The platform also provides analytics dashboards for HRs to track hiring metrics and candidate performance in real time. ",
+    image:
+      "/DashboardHero.png",
+    tags: ["Nextjs", "FastAPI","ollama","DeepSeek","LangChain"],
+    category: "machine learning",
+    github: "https://github.com/ThoufeeqAhmed2004/AI-Smart-HR-Management",
   },
    
 ];
