@@ -143,6 +143,14 @@ export const experiences = [
     img: "https://altruisty.in/static/assets/imgs/logo/logo.png", 
     doc: "/Intern CERT.png" 
   },
+  {
+  id: 2,
+  role: "AI & ML Developer Intern",
+  company: "Kreup AI Technologies",
+  date: "July 2025 - Ongoing",
+  skills: ["Python", "Machine Learning","Artificial Intelligence"],
+  img:"/kreup img.jpeg"
+  }
 ];
 
   
